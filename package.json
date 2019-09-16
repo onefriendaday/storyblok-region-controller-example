@@ -1,0 +1,22 @@
+{
+  "name": "react-next-storyblok-boilerplate",
+  "version": "1.0.0",
+  "description": "Next.js Storyblok Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Alexander Feiglstorfer <delooks@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "storyblok-js-client": "^1.0.21",
+    "storyblok-react": "0.0.6"
+  }
+}
